@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Projecto Final</h1>
+        <p id="description">Formulario final para la aprobación del curso</p>
+    </header>
+    <form id="survey-form">
+        <fieldset>
+            <legend><strong>Datos principales:</strong></legend>
+            <label id="name-label" for="name"> Nombre: 
+                <input class="intro" id="name" type="text" required placeholder="Ingresa tu nombre">
+            </label>
+            <label id="email-label" for="email"> Correo electrónico:
+                <input class="intro" id="email" type="email" required placeholder="Ingresa tu correo">         
+            </label>
+            <label id="number-label" for="number"> Edad: 
+                <input class="intro" id="number" type="number" min="0" max="150" required placeholder="Ingresa tu edad">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend><strong>Que deporte practicas?</strong></legend>
+            <select id="dropdown" required >
+                <option value="" disabled selected>
+                    Selecciona una opcción
+                </option>
+                <option value="1">
+                    Football
+                </option>
+                <option value="2">
+                    Basketball
+                </option>
+                <option value="3">
+                    Tennis
+                </option>
+                <option value="4">
+                    Voleyball
+                </option>
+                <option value="5">
+                    Otro
+                </option>
+                <option value="6">
+                    No practico deporte
+                </option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend><strong>Cómo estás?</strong></legend>
+            <label class="radios">
+                <input class="radios" type="radio" name="estado" value="bien"> Bien
+            </label>
+            <br>
+            <label class="radios">
+                <input class="radios" type="radio" name="estado" value="mal"> Mal
+            </label>
+            <br>
+            <label class="radios">
+                <input class="radios" type="radio" name="estado" value="regular"> Regular
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend><strong>De cuánto es tu salario actual?</strong></legend>
+            <select id="second-dropdown" required >
+                <option value="" disabled selected>
+                    Selecciona una opcción
+                </option>
+                <option value="1">
+                    $0
+                </option>
+                <option value="2">
+                    $500
+                </option>
+                <option value="3">
+                    $1000
+                </option>
+                <option value="4">
+                    $2000
+                </option>
+                <option value="5">
+                    $3000
+                </option>
+                <option value="6">
+                    $4000 o más
+                </option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend><strong>Cuales de los siguientes requisitos cumples?</strong></legend>
+            <label class="respuestas">
+                Tengo auto <input class="checks" type="checkbox" value="auto">
+            </label> 
+            <label class="respuestas">
+                Tengo casa propia <input class="checks" type="checkbox" value="casa"> 
+            </label>
+            <label class="respuestas">
+                Tengo una familia estable <input class="checks" type="checkbox" value="familia"> 
+            </label>
+            <label class="respuestas">
+                Tengo un trabajo <input class="checks" type="checkbox" value="trabajo"> 
+            </label>
+            <label class="respuestas">
+                Tengo titulo universitario <input class="checks" type="checkbox" value="titulo">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend><strong>Cuéntanos más sobre ti</strong></legend>
+            <label for="sueños"> Cuales son tus aspiraciones?
+                <textarea id="sueños" placeholder="Escriba aquí..."></textarea>
+            </label>
+        </fieldset>
+        <input type="submit" id="submit" value="Enviar">
+    </form>
+</body>
+</html>

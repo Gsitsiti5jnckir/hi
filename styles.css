@@ -1,0 +1,106 @@
+body{
+    background-image: url(https://backiee.com/static/wpdb/wallpapers/1000x563/200508.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    place-items: center;
+}
+header{
+    background-color: rgba(187, 152, 88, 0.6);
+    width:35%;
+    height: 120px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    border-radius: 20px;
+    color: rgb(25, 58, 100);
+}
+p{
+    font-size: large;
+}
+form{
+    background-color: rgba(107, 86, 29, 0.6);
+    border-radius: 20px;
+    width:35%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    margin-top: 5px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    display: grid;
+    place-items: center;
+}
+input{
+    display: block;
+    margin: 15px 0;
+    border-radius: 5px;
+    background-color: rgb(183, 203, 209);
+    border-color: rgb(25, 58, 100);
+}
+select{
+    display: block;
+    margin: 5px 0;
+}
+label{
+    display: block;
+    font-size: 18px;
+}
+.radios{
+    display: inline;
+    font-size: 18px;
+}
+.checks{
+    display: inline;
+}
+legend{
+    margin-top: 10px;
+}
+#sueños{
+    margin-top: 15px;
+    width: 98%;
+    height: 50px;
+}
+input::placeholder{
+    color: rgb(25, 58, 100);
+}
+textarea{
+    border-radius: 5px;
+    background-color: rgb(183, 203, 209);
+    border-color: rgb(25, 58, 100);
+    width: 98%;
+}
+textarea::placeholder{
+    color: rgb(25, 58, 100);
+}
+#submit{
+    color: rgb(25, 58, 100);
+    width: 120px;
+    height: 30px;
+    border-width: 1px;
+}
+.respuestas{
+    font-size: 18px;
+}
+select{
+    background-color: rgb(183, 203, 209);
+    border-color: rgb(25, 58, 100);
+    color: rgb(25, 58, 100);
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+}
+.intro{
+    width: 98%;
+    height: 20px;
+    border-width: 1px;
+}
+fieldset{
+    border-color: rgba(240, 248, 255, 0.205);
+    width: 90%;
+}
+fieldset:hover{
+    border-color: aliceblue;
+}
